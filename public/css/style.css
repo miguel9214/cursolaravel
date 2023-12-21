@@ -1,0 +1,79 @@
+/* Estilos para el fondo del header y el texto */
+header {
+    background-color: #333; /* Puedes cambiar este color según tus preferencias */
+    color: white;
+  }
+  
+  /* Estilos para el contenedor del menú */
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem; /* Ajusta según sea necesario */
+  }
+  
+  /* Estilos para el logotipo si decides agregar uno */
+  div {
+    /* Puedes agregar estilos específicos para el logotipo aquí */
+  }
+  
+  /* Estilos para la lista de enlaces del menú */
+  ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Estilos para cada elemento de la lista de enlaces */
+  li {
+    margin-right: 1rem; /* Espacio entre elementos, ajusta según sea necesario */
+  }
+  
+  /* Estilos para los enlaces del menú */
+  a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s; /* Agrega un suave efecto de transición de color */
+  }
+  
+  /* Estilos para los enlaces del menú cuando se pasa el ratón sobre ellos */
+  a:hover {
+    color: #ddd; /* Puedes cambiar este color según tus preferencias */
+  }
+
+    .card-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      max-width: 900px;
+    }
+
+    .card {
+      border: 1px solid black;
+      border-radius: 5px;
+      padding: 10px;
+      margin: 5px;
+      width: 250px;
+      background-color: #fff;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .card h1 {
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: #333;
+    }
+
+    .card img {
+      width: 100%;
+      height: auto;
+      margin-top: 10px;
+      border-radius: 5px;
+    }
+
+    .card p {
+      margin-top: 10px;
+      color: #666;
+    }
+  
